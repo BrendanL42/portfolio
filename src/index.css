@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+  background-color: #131313;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1800px;
+  overflow-x: hidden !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.activeHome {
+  border-bottom: 4px solid #344cb7;
+  padding-bottom: 0.5em;
+  animation: none;
+}
+
+
+.activeAbout {
+  border-bottom: 4px solid green;
+ 
+  padding-bottom: 0.5em;
+}
+.activeTec {
+  border-bottom: 4px solid #9b0000;
+  padding-bottom: 0.5em;
+}
+
+.activeProjects {
+ 
+  border-bottom: 4px solid #ffff00d5;
+  padding-bottom: 0.5em;
+}
+
+.activeContact {
+  border-bottom: 4px solid #9145b6;
+  padding-bottom: 0.5em;
+}
+

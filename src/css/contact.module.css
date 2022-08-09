@@ -1,0 +1,188 @@
+.wrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.headers {
+  font-size: 4.2em;
+  font-weight: 100;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 15px;
+  padding: 0 0 0 0;
+  z-index: 200;
+  margin: 0.5em ;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em auto 0 auto;
+  z-index: 2;
+}
+
+.text {
+  line-height: 1.8;
+  text-align: center;
+  font-weight: 400;
+  max-width: 400px;
+  font-size: 1.1em;
+  padding: 0;
+  z-index: 2;
+  margin: 0.1em auto 3em auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 2em auto 0 auto;
+
+  padding: 1em auto;
+}
+
+.form p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.text {
+  padding: 1em 1em 0 1em;
+}
+
+.submit {
+  margin: 1em auto 0 auto !important;
+  z-index: 2;
+}
+
+.cv {
+  color: #ff7f5b;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin: 0.8em 0;
+  z-index: 2;
+}
+
+.email {
+  color: #ff7f5b;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin: 0.8em 0;
+  z-index: 2;
+}
+
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0.8em 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.linkEmail {
+  font-size: 1.1em;
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0.8em 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.response {
+  color: #97bfb4;
+  font-weight: 300;
+  text-align: center;
+  margin: 1em;
+  height: 25px;
+  margin: 0.2em;
+}
+
+/* form */
+
+
+input[type="text"],
+[type="tel"],
+[type="email"],
+textarea {
+  min-width: 300px;
+font-size: 1.1em !important;
+font-weight: 400;
+  padding: 12px 0px 12px 10px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(199, 199, 199);
+}
+.textArea {
+  font-size: 1.25em !important;
+}
+
+.submit {
+  width: 60%;
+  max-width: 200px;
+  background-color: #ff7f5b;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: rgb(224, 107, 75);
+}
+
+.pot {
+  position: absolute;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  input[type="text"],
+  [type="tel"],
+  [type="email"],
+  textarea {
+    width: 600px;
+  }
+}
+
+
+
+@media (max-width: 635px) {
+
+  .headers {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    z-index: 200;
+    margin-top: 1em;
+  }
+
+}

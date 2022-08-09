@@ -1,0 +1,194 @@
+/* ---------------------------------------------- */
+
+/* Light Beam  */
+
+.light {
+  position: absolute;
+  top: -125px;
+  z-index: -1;
+}
+
+.lightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightBeam {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 750px 990px 750px;
+  border-color: transparent transparent #fff5b61c transparent;
+  position: absolute;
+  overflow: hidden;
+  top: -50px;
+  animation: flicker 4s linear infinite;
+  z-index: -100;
+}
+
+.aboutMe {
+  color: rgb(207, 207, 207);
+  padding: 1em 2em 2em 2em;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  text-align: center;
+  margin: 1em auto 0 auto;
+  width: 70% !important;
+  animation: flicker 4s linear infinite;
+  opacity: 0.7;
+
+ 
+}
+
+@keyframes flicker {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    opacity: 0.99;
+    text-shadow: -1px -1px 0, outline, 1px -1px 0, outline, -1px 1px 0, outline,
+      1px 1px 0, outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444,
+      0 0 2px #ff7e00, 0 2px 3px #000;
+  }
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+
+.counter {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+
+.whatsApp {
+  position: fixed;
+  bottom: -20px;
+  right: -13px;
+  z-index: 300;
+  opacity: 1;
+    }
+
+
+
+@media (min-width: 347px) {
+  .lightBeam {
+    border-width: 40px 700px 990px 700px;
+  }
+
+ 
+}
+
+@media (min-width: 375px) {
+  .lightBeam {
+    border-width: 40px 700px 990px 700px;
+  }
+}
+
+@media (min-width: 414px) {
+  .aboutMe {
+    font-size: 1.2em;
+    width: 60% !important;
+  }
+
+  .lightBeam {
+    border-width: 40px 700px 990px 700px;
+  }
+}
+
+@media (min-width: 500px) {
+
+      .aboutMe {
+        width: 40% !important;
+      }
+}
+
+@media (min-width: 704px) {
+
+  .whatsApp {
+    position: fixed;
+    bottom: 40px;
+    right: -13px;
+    z-index: 300;
+    opacity: 1;
+      }
+
+      .aboutMe {
+  
+        width: 40% !important;
+      }
+}
+
+@media (min-width: 800px) {
+
+  .lightBeam {
+    border-width: 70px 600px 500px 600px;
+    top: -50px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .lightBeam {
+    border-width: 70px 600px 450px 600px;
+    top: -50px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .lightBeam {
+    border-width: 70px 600px 410px 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lightBeam {
+    border-width: 70px 600px 400px 600px;
+  }
+
+}
+
+@media (min-width: 1300px) {
+  .lightBeam {
+    border-width: 70px 650px 390px 650px;
+    top: -50px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .lightBeam {
+    border-width: 70px 700px 380px 700px;
+    top: -60px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .lightBeam {
+    border-width: 70px 750px 360px 750px;
+  }
+}
+@media (min-width: 1600px) {
+  .lightBeam {
+    border-width: 70px 800px 350px 800px;
+  }
+}
+
+
