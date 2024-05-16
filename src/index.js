@@ -9,7 +9,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <>
-          <Route path="/portfolio" element={<App />} />
+          <Route path="/" element={<App />} />
         </>
       </Routes>
     </BrowserRouter>
